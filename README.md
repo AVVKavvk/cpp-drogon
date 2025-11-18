@@ -1,14 +1,15 @@
 ### Project Setup
 
-```
+```bash
 drogon_ctl create project simple-crud
+cd simple-crud
 ```
 
 #### Create Controller
 
 ```bash
 cd controllers
-drogon_ctl create controller -h V1::UserController
+drogon_ctl create controller -h V1::Users
 ```
 
 ### Run Project
@@ -34,7 +35,7 @@ make
 It will give you an executable
 
 ```bash
-./your_executable
+./simple-crud
 ```
 
 Move to port:`5555`

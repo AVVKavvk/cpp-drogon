@@ -1,0 +1,10 @@
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 120
+DerivePointerAlignment: false
+PointerAlignment: Left
+AllowShortFunctionsOnASingleLine: All
+SpaceBeforeParens: ControlStatements
+AllowShortIfStatementsOnASingleLine: false
+BreakBeforeBraces: Attach
+BreakBeforeTernaryOperators: true
